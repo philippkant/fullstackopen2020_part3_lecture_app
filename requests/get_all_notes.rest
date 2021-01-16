@@ -1,1 +1,23 @@
 GET http://localhost:3001/api/notes
+
+###
+
+GET http://localhost:3001/api/notes/5fff1c7f6d1e27504dc5c22c
+
+###
+
+GET http://localhost:3001/api/notes/5fff1c7f6d1e27504dc5c22f
+
+###
+
+GET http://localhost:3001/api/notes/invalidid
+
+###
+
+PUT http://localhost:3001/api/notes/60016913d0acdc324622d7f5
+content-type: application/json
+
+{
+    "content": "asd",
+    "important": true
+}
